@@ -1,23 +1,17 @@
-import os
-questions = "/Users/arlun/Desktop/programming/python/discord_bot/ungame/questions.txt"
+with open("questions.txt", "r", encoding="utf-8") as f:
+    questions = f.read().split("\n")
 
-with open(questions) as before_q_file:
-    questions_str = before_q_file.read()
+while "" in questions:
+    questions.remove("")
 
-questions_list = questions_str.split("\n")
+question_lists = []
+for question in questions:
+    id_num, text = question.split("|")
+    question_lists.append([int(id_num), question])
 
-while "\n" in questions_list:
-    questions_list.remove("\n")
+question_lists.sort()
 
-for i,l in enumerate(questions_list):
-    l = l.split("|")
-    questions_list[i] = [int(l[0]), l[1]]
+questions_sorted = map(lambda x: x[1], question_lists)
 
-questions_list.sort()
-
-for i,l in enumerate(questions_list):
-    l[0] = str(l[0])
-    questions_list[i] = "|".join(l)
-
-with open("/Users/arlun/Desktop/programming/python/discord_bot/ungame/questions_sorted", mode = "w") as after_q_file:
-    after_q_file.write("\n".join(questions_list))
+with open("questions_sorted.txt", "w", encoding="utf-8") as f:
+    f.write("\n".join(questions_sorted))
