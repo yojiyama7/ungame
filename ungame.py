@@ -21,3 +21,6 @@ if __name__ == "__main__":
 	random.shuffle(questions)
 	for question in questions:
 		print(question.text)
+
+	# with open("../ungame_token.txt", "r", encoding="utf-8") as f:
+	# 	print(f.readline())
