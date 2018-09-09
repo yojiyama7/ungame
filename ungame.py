@@ -12,6 +12,7 @@ if __name__ == "__main__":
 
 	while "" in lines:
 		lines.remove("")
+<<<<<<< HEAD
 	
 	questions = []
 	for line in lines:
@@ -20,4 +21,9 @@ if __name__ == "__main__":
 
 	random.shuffle(questions)
 	for question in questions:
+=======
+	questions = [Question(*line.split("|")) for line in lines]
+
+	for question in random.shuffle(questions):
+>>>>>>> 776da689026641a896f81517071f4d9958fc5cdc
 		print(question.text)
