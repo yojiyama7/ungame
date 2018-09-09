@@ -31,4 +31,5 @@ if __name__ == "__main__":
 	for question in questions:
 		print(question.text)
 
+	print(take_token())
 	
