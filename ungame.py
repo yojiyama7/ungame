@@ -1,6 +1,15 @@
 import random
 
+with open("../ungame_token.txt", "r", encoding="utf-8") as f:
+	token = f.readline()
+def take_token():
+	return token
+
 class Question:
+	"""
+	id_num: int
+	text: str
+	"""
 	def __init__(self, id_num, text):
 		self.id_num = id_num
 		self.text = text
@@ -21,3 +30,5 @@ if __name__ == "__main__":
 	random.shuffle(questions)
 	for question in questions:
 		print(question.text)
+
+	
