@@ -1,3 +1,5 @@
+import random
+
 class Question:
 	"""
 	id_num: int
@@ -17,8 +19,15 @@ def take_token():
 def take_questions():
 	return _questions
 
+class Deck:
+	def __init__(self, questions):
+		self.questions = random.shuffle(questions)
+
+	def draw(self):
+		return self.questions.pop()
+
 if __name__ == "__main__":
-	
+
 	for question in take_questions():
 		print(question.text)
 
