@@ -25,6 +25,26 @@ class Deck:
 
 	def draw(self):
 		return self.questions.pop()
+	def is_empty(self):
+		return self.questions == []
+
+class Ungame:
+	def __init__(self):
+		self.deck = Deck()
+	
+	def start(self, players):
+		self.players = players
+		self.player_num = 0
+		self.next()
+
+	def next(self):
+		if self.deck.is_empty():
+			return False
+		else:
+			question = self.deck.draw()
+			player = self.players[self.player_num]
+			self.player_num += 1
+			return "to " + player.name + "\n" + question.text
 
 if __name__ == "__main__":
 
