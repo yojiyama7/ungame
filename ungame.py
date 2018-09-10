@@ -10,26 +10,18 @@ class Question:
 	id_num: int
 	text: str
 	"""
-	def __init__(self, id_num, text):
-		self.id_num = id_num
+	def __init__(self, text):
 		self.text = text
 
+with open("questions.txt", "r", encoding="utf-8") as f:
+	lines = f.read().split("\n")
+questions = [Question(line) for line in lines]
+def take_questions():
+	return questions
+
 if __name__ == "__main__":
-
-	with open("questions.txt", "r", encoding="utf-8") as f:
-		lines = f.read().split("\n")
-
-	while "" in lines:
-		lines.remove("")
 	
-	questions = []
-	for line in lines:
-		id_num, text = line.split("|")
-		questions.append(Question(int(id_num), text))
-
-	random.shuffle(questions)
-	for question in questions:
+	for question in take_questions():
 		print(question.text)
 
 	print(take_token())
-	

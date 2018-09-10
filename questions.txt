@@ -1,55 +1,55 @@
-31|Share something you enjoy doing with your family.
-56|Describe your childhood in 3 words.
-53|What role do love and affection play in your life?
-52|Say something about information overload.
-50|Say something about resentment.
-49|What would you do if you could be connected to the Internet for only 1 hour each week?
-48|How do you want to spend the last year of your life?
-70|What do you think is your purpose in life?
-69|How do you feel about being bound by a schedule?
-68|When do you feel most confident?
-67|When you die, how would you like to be remembered?
-66|Which of your senses do you value most?
-65|Tell about an under standing person in your life.
-64|Tell about the most significant person in your life.
-62|Complete the sentence: "The loneliest time for me is..."
-61|Tell about a time when you felt successful.
-59|When do you fell most peaceful?
-58|What would you like to achieve with your life?
-32|Talk about a recent news story that has captured your interest.
-34|Share your feelings about financial security.
-35|What kind of emergency scares you the most?
-37|Share an embarrassing childhood experience.
-38|Tell about a depressing time in your life
-40|Complete the sentence: "I hope..."
-41|What is one ting you could do to improve your life?
-43|Describe divorce in 3 words.
-44|Talk about taking risks.
-45|Talk about a time when you felt excluded
-46|Talk about something beautiful you saw this week.
-47|Tell about a mistake you have made recently.
-20|Share something that no one knows about you.
-22|What have you done in the past 3months that makes you feel proud?
-23|Tell about a time when you felt awkward.
-3|If you could cure any disease, what would it be? Why?
-1|Share a childhood experience with death.
-17|How do you feel about guns?
-16|Say something about suicide.
-14|How do you feel about donating your organs when you die?
-13|What seems to be the biggest problem in your life right now?
-12|Share your feelings about changing jobs.
-11|Talk about your eating habits.
-10|Say something about excessive drinking.
-9|Say something about apologizing
-8|What are you reasons for wanting to go on living?
-7|What would be the most difficult news for you to accept about someone in your family?
-6|Talk about responsibility
-5|Say something about poverty.
-29|How do you feel about sharing personal problems?
-28|Say something about illness and how it has affected your life.
-26|Talk about a joyful time in your life.
-25|Talk about the importance of a religious faith in your life.
-55|What disturbs you about the people with whom you live?
-19|Complete the sentence: "I wish I had someone with whom I could share..."
-4|Talk about a time when "Breaking News" interrupted your day?
-2|If you could have a committee of 3 people (living or dead) to help you make decisions, whom would you choose?
+Share a childhood experience with death.
+If you could have a committee of 3 people (living or dead) to help you make decisions, whom would you choose?
+If you could cure any disease, what would it be? Why?
+Talk about a time when "Breaking News" interrupted your day?
+Say something about poverty.
+Talk about responsibility.
+What would be the most difficult news for you to accept about someone in your family?
+What are you reasons for wanting to go on living?
+Say something about apologizing.
+Say something about excessive drinking.
+Talk about your eating habits.
+Share your feelings about changing jobs.
+What seems to be the biggest problem in your life right now?
+How do you feel about donating your organs when you die?
+Say something about suicide.
+How do you feel about guns?
+Complete the sentence: "I wish I had someone with whom I could share..."
+Share something that no one knows about you.
+What have you done in the past 3months that makes you feel proud?
+Tell about a time when you felt awkward.
+Talk about the importance of a religious faith in your life.
+Talk about a joyful time in your life.
+Say something about illness and how it has affected your life.
+How do you feel about sharing personal problems?
+Share something you enjoy doing with your family.
+Talk about a recent news story that has captured your interest.
+Share your feelings about financial security.
+What kind of emergency scares you the most?
+Share an embarrassing childhood experience.
+Tell about a depressing time in your life
+Complete the sentence: "I hope..."
+What is one ting you could do to improve your life?
+Describe divorce in 3 words.
+Talk about taking risks.
+Talk about a time when you felt excluded
+Talk about something beautiful you saw this week.
+Tell about a mistake you have made recently.
+How do you want to spend the last year of your life?
+What would you do if you could be connected to the Internet for only 1 hour each week?
+Say something about resentment.
+Say something about information overload.
+What role do love and affection play in your life?
+What disturbs you about the people with whom you live?
+Describe your childhood in 3 words.
+What would you like to achieve with your life?
+When do you fell most peaceful?
+Tell about a time when you felt successful.
+Complete the sentence: "The loneliest time for me is..."
+Tell about the most significant person in your life.
+Tell about an under standing person in your life.
+Which of your senses do you value most?
+When you die, how would you like to be remembered?
+When do you feel most confident?
+How do you feel about being bound by a schedule?
+What do you think is your purpose in life?
