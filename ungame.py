@@ -2,6 +2,9 @@ import random
 import discord
 from ungame_classes import *
 
+END_MESSAGE = "This is the end of the game.\nThank you for playing!"
+phrase = {"join":"join", "next":"next"}
+
 client = discord.Client()
 
 @client.event
@@ -11,21 +14,39 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
+
+
 @client.event
 async def on_message(message):
-    # 「おはよう」で始まるか調べる
-    if message.content.startswith("/ungame"):
-        commands = message[7:].split(" ")
 
-    if commands[0] == "phrase":
-        if commands[1] == "join":
+    if message.content.startswith("/"):
+        cmd = message[1:].split(" ")
 
-        elif commands[1] == "next":
+        if cmd[0] == "ungame":
 
-    elif commands[0] == "open":
+            if cmd[1] == "phrase":
+                if cmd[2] == "join":
+                    join_phrase = cmd[3]
+                elif cmd[2] == "next":
+                    next_phrase = cmd[3]
+
+            elif cmd[1] == "open": # ここからgame開始
 
 
-    elif commands[0] == "end" or #カードがなくなった時:
+            elif cmd[1] == "start":
+                deck = Deck(take_questions())
+
+                while True:
+                    if deck.questions == []:
+                        await client.send_message(message.channel, END_MESSAGE)
+                        break
+
+                    elif message.content == start_message:
+                        await client.send_message(message.channel, deck.draw())
+
+            elif cmd[1] == "end":
+
+                await client.send_message(message.channel, END_MESSAGE)
 
 
 
